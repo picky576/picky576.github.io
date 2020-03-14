@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <!--[if IE]><link rel="icon" href="/favicon.ico"><![endif]-->
+    <title>Welcome</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            position: relative;
+        }
+
+        html {
+            font-weight: 500;
+            font: 100%/1.5 "lato", sans-serif;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            text-align: center;
+            background-size: cover;
+            background: url(https://source.unsplash.com/random) no-repeat center center fixed #ecf0f1;
+        }
+
+        .enter,
+        .enter:after,
+        .enter:hover,
+        .enter:hover:after {
+            -webkit-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            transition: all 1s ease;
+        }
+
+        .enter {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 100px;
+            height: 100px;
+            background-color: #2A2A2B;
+            background-color: rgba(42, 103, 236, 0.2);
+            z-index: 999999999;
+            text-align: center;
+            line-height: 100px;
+            text-decoration: none;
+            color: #FFF;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            -webkit-box-shadow: 0 0 15px 2px #000;
+            -moz-box-shadow: 0 0 15px 2px #000;
+            box-shadow: 0 0 15px 2px #000;
+        }
+
+        .enter:after {
+            content: " ";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 80px;
+            height: 80px;
+            background-color: rgba(42, 103, 236, 0.5);
+            z-index: 999999999;
+            text-align: center;
+            line-height: 80px;
+            text-decoration: none;
+            color: #FFF;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            -webkit-box-shadow: 0 0 15px 2px #000;
+            -moz-box-shadow: 0 0 15px 2px #000;
+            box-shadow: 0 0 15px 2px #000;
+        }
+
+        .enter:hover {
+            box-shadow: 0 0 4px 4px rgb(42, 103, 236);
+            -webkit-box-shadow: 0 0 4px 4px rgb(42, 103, 236);
+            -moz-box-shadow: 0 0 4px 4px rgb(42, 103, 236);
+        }
+
+        .enter:hover:after {
+            background-color: #2A2A2B;
+            background-color: rgba(17, 17, 17, 0.67);
+        }
+
+        *,
+        *:before,
+        *:after {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <a href="#none" class="enter">Enter</a>
+</body>
+
+</html>
