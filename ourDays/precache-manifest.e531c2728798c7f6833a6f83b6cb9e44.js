@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0eed89ab97cacf9cedd79e8268799251",
+    "revision": "8a72959ffde18ecf309359eeba9b0b36",
     "url": "/ourDays/index.html"
   },
   {
@@ -12,12 +12,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ourDays/robots.txt"
   },
   {
-    "revision": "fbcd8457d0cf34eb0c87",
-    "url": "/ourDays/src/css/app.775bc4cb.css"
+    "revision": "b6c054a40ed9fcd476fe",
+    "url": "/ourDays/src/css/app.aa2c6143.css"
   },
   {
-    "revision": "fbcd8457d0cf34eb0c87",
-    "url": "/ourDays/src/js/app.7d397a72.js"
+    "revision": "b6c054a40ed9fcd476fe",
+    "url": "/ourDays/src/js/app.cb1a4ef2.js"
   },
   {
     "revision": "64548c1c95d4989ae3ec",
